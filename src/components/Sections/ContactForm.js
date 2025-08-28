@@ -80,13 +80,13 @@ const ContactForm = () => {
               className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black mq450:hidden"
               onClick={onEmailClick}
             >
-              <img className="relative w-5 h-5" alt="" src="/email.svg" />
+              <img className="relative w-5 h-5" alt="" src={`${process.env.PUBLIC_URL}/email.svg`} />
             </button>
             <button
               className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black mq450:hidden"
               onClick={onLinkedInClick}
             >
-              <img className="relative w-5 h-5" alt="" src="/LinkedIn.svg" />
+              <img className="relative w-5 h-5" alt="" src={`${process.env.PUBLIC_URL}/LinkedIn.svg`} />
             </button>
             <button
               className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black mq450:hidden"
@@ -95,7 +95,7 @@ const ContactForm = () => {
               <img
                 className="relative w-5 h-5"
                 alt=""
-                src="/Github.svg"
+                src={`${process.env.PUBLIC_URL}/Github.svg`}
               />
             </button>
             <button
@@ -105,7 +105,7 @@ const ContactForm = () => {
               <img
                 className="relative w-5 h-5"
                 alt=""
-                src="/Medium.svg"
+                src={`${process.env.PUBLIC_URL}/Medium.svg`}
               />
             </button>
           </div>
