@@ -52,15 +52,14 @@ const Projects = () => {
             </h1>
           </div>
           <ProjectComponent
-            Image="/snowflake pic.jpg"
+            Image={`${process.env.PUBLIC_URL}/snowflake pic.jpg`}
             Number="01"
             Title="Navigating Healthcare Deserts"
-            ImageLink=""
             Text1="Developing an interactive geospatial machine learning application to predict healthcare deserts, integrating demographic, transportation, and facility data to identify underserved areas and inform resource allocation decisions for healthcare planners."
             Text2="Leveraging data connections with Snowflake, classification algorithms and GenAI to summarize insights and recommend high-impact locations for clinics, targeting socially vulnerable populations."
           />
           <ProjectComponent
-            Image="/website pic.png"
+            Image={`${process.env.PUBLIC_URL}/website pic.png`}
             Number="02"
             Title="Personal Website"
             ImageLink="https://github.com/Dia23463/personal-website"
@@ -68,7 +67,7 @@ const Projects = () => {
             Text2="This website was built using React.js, Vanta.js, and Tailwind CSS. It is hosted at diasutaria.me and is fully functional."
           />
           <ProjectComponent
-            Image="/researchAI.png"
+            Image={`${process.env.PUBLIC_URL}/researchAI.png`}
             Number="03"
             Title="ResearchAI "
             ImageLink="https://github.com/Dia23463/RAG-chrome-extension"
@@ -76,7 +75,7 @@ const Projects = () => {
             Text2="My team and I won the 3rd prize at MassAI Conference 2025 for this project."
           />
           <ProjectComponent
-            Image="/maze pic.png"
+            Image={`${process.env.PUBLIC_URL}/maze pic.png`}
             Number="04"
             Title="Maze-O-Cat"
             ImageLink="https://github.com/Dia23463/maze-o-cat"
@@ -86,5 +85,6 @@ const Projects = () => {
         </div>
       </section>
     )};
+
 
     export default Projects;
