@@ -76,7 +76,7 @@ const Navbar = () => {
             className="relative w-[30px] h-[30px]"
             loading="eager"
             alt=""
-            src={`${process.env.PUBLIC_URL}/dia_icon_2.svg`}"
+            src="/dia_icon_2.svg"
           />
         </button>
         <div className="w-[550px] flex flex-row items-center justify-center gap-[32px] max-w-full mq825:gap-[16px]">
@@ -210,4 +210,5 @@ export default Navbar;
 // };
 
 // export default Navbar;
+
 
