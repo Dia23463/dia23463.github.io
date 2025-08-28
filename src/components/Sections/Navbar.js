@@ -73,10 +73,10 @@ const Navbar = () => {
       >
         <button className="cursor-pointer [border:none] py-0 pr-[17px] pl-0 bg-[transparent] flex flex-row items-center justify-start gap-[11px]">
           <img
-            //className="relative w-[30px] h-[30px]"
-            //loading="eager"
+            className="relative w-[30px] h-[30px]"
+            loading="eager"
             alt=""
-            src= "/dia_icon_2.svg"
+            src={`${process.env.PUBLIC_URL}/dia_icon_2.svg`}
           />
         </button>
         <div className="w-[550px] flex flex-row items-center justify-center gap-[32px] max-w-full mq825:gap-[16px]">
@@ -210,6 +210,7 @@ export default Navbar;
 // };
 
 // export default Navbar;
+
 
 
 
