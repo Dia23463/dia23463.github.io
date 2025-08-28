@@ -129,7 +129,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src=Image={`${process.env.PUBLIC_URL}/email.svg`}
+                  src="/email.svg"
                 />
               </button>
               <button
@@ -139,7 +139,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src=Image={`${process.env.PUBLIC_URL}/Linkedin.svg`}
+                  src=/Linkedin.svg
                 />
               </button>
               <button
@@ -149,7 +149,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src=Image={`${process.env.PUBLIC_URL}/Github.svg`}
+                  src=/Github.svg
                 />
               </button>
               <button
@@ -159,7 +159,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/Medium.svg`}
+                  src=/Medium.svg
 
                 />
               </button>
@@ -171,3 +171,4 @@ const Hero = () => {
 
 
 export default Hero;
+
