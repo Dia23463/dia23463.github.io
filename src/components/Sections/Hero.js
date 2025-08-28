@@ -38,6 +38,7 @@ const Hero = () => {
         const scrollAnimElements = document.querySelectorAll(
           "[data-animate-on-scroll]"
         );
+        console.log(`${process.env.PUBLIC_URL}/LinkedIn.svg`);
         const observer = new IntersectionObserver(
           (entries) => {
             for (const entry of entries) {
@@ -171,5 +172,6 @@ const Hero = () => {
 
 
 export default Hero;
+
 
 
