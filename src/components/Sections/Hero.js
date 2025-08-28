@@ -139,7 +139,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src=/Linkedin.svg
+                  src="/Linkedin.svg"
                 />
               </button>
               <button
@@ -149,7 +149,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src=/Github.svg
+                  src="/Github.svg"
                 />
               </button>
               <button
@@ -159,7 +159,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src=/Medium.svg
+                  src="/Medium.svg"
 
                 />
               </button>
@@ -171,4 +171,5 @@ const Hero = () => {
 
 
 export default Hero;
+
 
